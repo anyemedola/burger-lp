@@ -104,23 +104,26 @@
     .dot {
         border: 1px dashed black;
         text-transform: uppercase;
-        font-size: 14px;
         margin: 0;
+        width: 100%;
+        span{
+            display: flex;
+            justify-content: center;
+            font-size: 16px;
+            padding: 10px;
+        }
     }
 
     .header {
-        font-family: 'Alfa Slab One', cursive;
-        font-family: 'Poppins', sans-serif;
-        text-transform: uppercase;
-        font-weight: bolder;
-        font-size: 100px;
-        margin: 0;
-        text-decoration: dotted;
+        img{
+            width: 600px;
+        }
     }
 
     .subtitle {
-        text-transform: uppercase;
-        margin: 0;
+        img{
+            width: 200px;
+        }
     }
 }
 
